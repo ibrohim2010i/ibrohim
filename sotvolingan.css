@@ -1,0 +1,43 @@
+.bosha {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    margin: 50px 2px 2px 600px;
+}
+
+.ibrohim {
+    margin: 20px 0px 0px 90px;
+    font-size: 30px;
+    color: rgb(29, 29, 164);
+}
+
+body {
+    background-color: rgb(34, 135, 125);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:active {
+    color: red;
+}
+.sotibolgan{
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin: 20px 50% 20px 40%;
+}
+mark{
+    margin: 20px 50% 20px 50%;
+    font-size: 60px;
+}
+
+
+

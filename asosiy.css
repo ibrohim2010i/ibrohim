@@ -1,0 +1,34 @@
+.bosha {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    margin: 50px 2px 2px 600px;
+}
+
+.ibrohim {
+    margin: 20px 0px 0px 90px;
+    font-size: 30px;
+    color: rgb(38, 38, 109);
+}
+
+body {
+    background-color: rgb(34, 135, 125);
+}
+
+.bosha > a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:active {
+    color: red;
+}
+.asosiydiv{
+    font-size: 20px;
+    text-align: center;
+}
+.asosiydiv > a{
+    text-decoration: none;
+    color: red;
+}

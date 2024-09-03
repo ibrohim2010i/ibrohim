@@ -1,0 +1,83 @@
+.bosha {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    margin: 50px 2px 2px 600px;
+}
+
+.ibrohim {
+    margin: 20px 0px 0px 90px;
+    font-size: 30px;
+    color: rgb(29, 29, 164);
+}
+
+body {
+    background-color: rgb(34, 135, 125);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:active {
+    color: red;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.img:hover img {
+    transform: scale(1.5);
+}
+
+.narx {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    font-size: 20px;
+    width: 150px;
+    height:50px ;
+    margin: 5px;
+    color: rgb(227, 227, 232);
+    background-color: blue;
+}
+button:hover{
+    color: black;
+    background-color: red;
+    transform: scale(1.5);
+}
+.like-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(232, 223, 223);
+    cursor: pointer;
+    font-size: 30px;
+}
